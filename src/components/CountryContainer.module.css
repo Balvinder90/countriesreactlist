@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  max-width: 120.4rem;
+  margin: auto;
+  margin-top: 10rem;
+  row-gap: 10rem;
+  column-gap: 10rem;
+  justify-items: center;
+}
+
+@media screen and (max-width: 37.5em) {
+  .container {
+    grid-template-columns: 1fr;
+    margin-top: 7rem;
+    row-gap: 7rem;
+  }
+}

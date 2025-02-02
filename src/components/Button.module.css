@@ -1,0 +1,126 @@
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 17rem;
+  height: 4rem;
+}
+
+.buttonContainer a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainerSmall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 4rem;
+}
+
+.buttonContainerSmall a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.readMore {
+  border: 1px #ac1f7f solid;
+  width: 14rem;
+}
+
+.readMore a {
+  font-weight: 300;
+  font-family: "poppins";
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #ffffff;
+  background-color: #ac1f7f;
+  width: 13.5rem;
+  height: 3.5rem;
+  transition: all 0.6s;
+}
+
+.readMore a:hover {
+  background-color: #c92f99;
+}
+
+.sort {
+  border: 1px #ffd66d solid;
+}
+
+.sort a {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3rem;
+  font-weight: 300;
+  font-family: "poppins";
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #262626;
+  background-color: #ffd66d;
+  width: 16.5rem;
+  height: 3.5rem;
+  transition: all 0.6s;
+}
+
+.sort a:hover {
+  background-color: #ffe6a7;
+}
+
+.goBack {
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+  border: 1px #88caff solid;
+}
+
+.goBack a {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3rem;
+  font-weight: 300;
+  font-family: "poppins";
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #262626;
+  background-color: #88caff;
+  width: 9.5rem;
+  height: 3.5rem;
+  transition: all 0.6s;
+}
+
+.goBack a:hover {
+  background-color: #b0dcff;
+}
+
+.error {
+  top: 2rem;
+  left: 1.5rem;
+  border: 1px #88caff solid;
+}
+
+.error a {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3rem;
+  font-weight: 300;
+  font-family: "poppins";
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #262626;
+  background-color: #88caff;
+  width: 9.5rem;
+  height: 3.5rem;
+  transition: all 0.6s;
+}
+
+.error a:hover {
+  background-color: #b0dcff;
+}

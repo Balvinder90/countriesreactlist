@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  max-width: 120.4rem;
+  margin: auto;
+  margin-top: 5rem;
+  row-gap: 7rem;
+  column-gap: 10rem;
+}
+
+@media screen and (max-width: 37.5em) {
+  .container {
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+  }
+
+  .container > div:not(:last-child) {
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #5b5b5b;
+  }
+
+  .container > div:last-child {
+    padding-bottom: 2rem;
+  }
+}

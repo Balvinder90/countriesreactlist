@@ -1,0 +1,78 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 3rem;
+}
+
+.flag {
+  height: 10rem;
+  align-self: start;
+}
+
+.heading {
+  align-self: start;
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1.5rem;
+  width: 20rem;
+}
+
+.iconOuter {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.iconInner {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.iconInner svg {
+  color: #262626;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.info {
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 37.5em) {
+  .item {
+    align-items: center;
+  }
+
+  .flag {
+    height: 10rem;
+    align-self: center;
+  }
+
+  .heading {
+    align-self: center;
+  }
+}

@@ -1,0 +1,22 @@
+.mapContainer {
+  max-width: 170rem;
+  height: 70rem;
+  margin: auto;
+  margin-top: -3rem;
+}
+
+.mapContainer iframe {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 100%;
+}
+
+@media screen and (max-width: 37.5em) {
+  .mapContainer {
+    max-width: 170rem;
+    height: 70rem;
+    margin: auto;
+    margin-top: -1.5rem;
+  }
+}

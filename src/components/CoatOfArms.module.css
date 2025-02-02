@@ -1,0 +1,25 @@
+.coatOfArmsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 30rem;
+  gap: 2.5rem;
+  margin: 7rem auto;
+}
+
+.coatOfArmsContainer img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  height: 15rem;
+}
+
+.coatOfArmsContainer h2 {
+  font-size: 1.6rem;
+  color: #ffffff;
+  font-weight: 300;
+  background-color: #565656;
+  padding: 0.8rem 2.3rem;
+  border-radius: 5rem;
+}

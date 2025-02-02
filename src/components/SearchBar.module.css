@@ -1,0 +1,52 @@
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 35rem;
+  height: 5rem;
+  border-radius: 5rem;
+  border: 1px solid white;
+}
+
+input {
+  font-family: "poppins";
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: #ffffff;
+  color: #262626;
+  width: 34rem;
+  height: 3rem;
+  border-radius: 5rem;
+  padding: 2rem;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+input::placeholder {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #7e7e7e;
+}
+
+@media screen and (max-width: 26.25em) {
+  .outer {
+    width: 29rem;
+  }
+
+  input {
+    width: 28rem;
+  }
+}
+
+@media screen and (max-width: 22.5em) {
+  .outer {
+    width: 26rem;
+  }
+
+  input {
+    width: 25rem;
+  }
+}
