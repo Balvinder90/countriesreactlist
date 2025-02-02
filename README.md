@@ -13,3 +13,4 @@
 5. React Router
 6. Font Awesome React Icons 
 7. Figma
+8. Rest Countries Api - https://restcountries.com/
